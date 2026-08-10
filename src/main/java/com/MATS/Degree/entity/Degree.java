@@ -16,5 +16,30 @@ public class Degree {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String degreeNumber;
+
+    private String enrollNumber;
+
+    private String universityName;
+
+    private String centerName;
+
+    private String naacLogo;
+
+    private String universityLogo;
+
+    private String courseName;
+
+    private String name;
+
+    private String year;
+
+    private String division;
+
+    private String shikshaNaam;
+
+    private String naam;
+
+    private String bhaag;
 
 }
