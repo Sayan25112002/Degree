@@ -171,7 +171,7 @@
                 <textElement textAlignment="Center" markup="html">
                     <font fontName="NotoSansDevanagari" size="13"/>
                 </textElement>
-                <textFieldExpression><![CDATA["प्रमाणित किया जाता है कि<br/>रामेश्वरी सिंह<br/>ने ईस्वी सन 2020 में इस विश्वविद्यालय के<br/>मुक्त एवं दूरवर्ती शिक्षा प्रणाली के अंतर्गत<br/>बैचलर ऑफ आर्ट्स<br/>की परीक्षा द्वितीय श्रेणी में उत्तीर्ण की। उन्हें<br/>बैचलर ऑफ आर्ट्स<br/>की उपाधि प्रदान की जाती है।"]]></textFieldExpression>
+                <textFieldExpression><![CDATA["प्रमाणित किया जाता है कि<br/>"+$P{data}.get("naam")+"<br/>ने ईस्वी सन "+$P{data}.get("year")+" में इस विश्वविद्यालय के<br/>मुक्त एवं दूरवर्ती शिक्षा प्रणाली के अंतर्गत<br/>"+$P{data}.get("shiksha")+"<br/>की परीक्षा द्वितीय श्रेणी में उत्तीर्ण की। उन्हें<br/>"+$P{data}.get("shiksha")+"<br/>की उपाधि प्रदान की जाती है।"]]></textFieldExpression>
             </textField>
             <staticText>
                 <reportElement x="0" y="660" width="185" height="40" uuid="6f730a6f-1da3-4fc6-a5bc-03edd4f39d09">
