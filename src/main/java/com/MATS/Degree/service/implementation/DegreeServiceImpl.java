@@ -46,7 +46,7 @@ public class DegreeServiceImpl implements DegreeService {
 
     @Override
     public byte[] generateDegree(Long id) throws JRException {
-        String resourceDir = System.getProperty("user.dir")+"\\src\\resources\\report\\";
+        String resourceDir = System.getProperty("user.dir")+"\\src\\main\\resources\\report\\";
         Path degreePath = Paths.get(resourceDir, "Degree.jrxml");
         JasperReport degreeReport = JasperCompileManager.compileReport(degreePath.toString());
         Degree degree = degreeRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("Degree not found with id " + id));
