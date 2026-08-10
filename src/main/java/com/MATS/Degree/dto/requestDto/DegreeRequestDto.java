@@ -26,7 +26,7 @@ public class DegreeRequestDto {
 
     private String universityLogo;
 
-    private String universityLogoFile;
+    private MultipartFile universityLogoFile;
 
     private String courseName;
 
