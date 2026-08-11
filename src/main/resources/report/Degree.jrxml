@@ -46,7 +46,7 @@
                     <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                 </reportElement>
                 <textElement textAlignment="Center" verticalAlignment="Bottom">
-                    <font fontName="Calibri" size="32" isBold="true"/>
+                    <font fontName="Imprint MT Shadow" size="30" isBold="true"/>
                 </textElement>
                 <textFieldExpression><![CDATA[$P{data}.get("universityName")]]></textFieldExpression>
             </textField>

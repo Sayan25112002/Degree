@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fontFamilies>
+    <fontFamily name="Imprint MT Shadow">
+        <normal>fonts/ImprintMtShadow.ttf</normal>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+    </fontFamily>
     <fontFamily name="Calibri">
         <normal>fonts/calibri.ttf</normal>
         <pdfEncoding>Identity-H</pdfEncoding>
