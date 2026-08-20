@@ -80,7 +80,7 @@
                     <property name="com.jaspersoft.studio.unit.barHeight" value="px"/>
                 </reportElement>
                 <jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="false" checksumRequired="false">
-                    <jr:codeExpression><![CDATA[$P{data}.get("name")]]></jr:codeExpression>
+                    <jr:codeExpression><![CDATA[$P{data}.get("barCode")]]></jr:codeExpression>
                 </jr:barbecue>
             </componentElement>
             <componentElement>
@@ -94,7 +94,7 @@
                     <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                 </reportElement>
                 <jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
-                    <jr:codeExpression><![CDATA[$P{data}.get("name")]]></jr:codeExpression>
+                    <jr:codeExpression><![CDATA[$P{data}.get("qrCode")]]></jr:codeExpression>
                 </jr:QRCode>
             </componentElement>
             <image scaleImage="FillFrame">
@@ -107,7 +107,7 @@
                     <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
                     <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                 </reportElement>
-                <imageExpression><![CDATA[$P{data}.get("universityLogo")]]></imageExpression>
+                <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/Downloads/NewBackgroundMATS.png"]]></imageExpression>
             </image>
             <image scaleImage="FillFrame">
                 <reportElement x="10" y="110" width="100" height="30" uuid="a27a75c8-532f-4184-9db0-c9ff336aba8e">

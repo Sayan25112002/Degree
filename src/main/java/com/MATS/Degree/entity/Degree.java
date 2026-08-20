@@ -28,6 +28,10 @@ public class Degree {
 
     private String universityLogo;
 
+    private String barCode;
+
+    private String qrCode;
+
     private String courseName;
 
     private String name;

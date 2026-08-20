@@ -28,6 +28,10 @@ public class DegreeRequestDto {
 
     private MultipartFile universityLogoFile;
 
+    private String barCode;
+
+    private String qrCode;
+
     private String courseName;
 
     private String name;
